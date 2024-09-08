@@ -1,0 +1,21 @@
+{
+  "name": "theme_elements",
+  "version": "2024.09.09",
+  "description": "A set of classes from OS 2.0 themes on the theme store to make building Theme App Extensions easier.",
+  "type": "module",
+  "author": {
+    "name": "Harshdeep Singh Hura",
+    "url": "https://harshdeephura.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kinngh/shopify-theme-elements.git"
+  },
+  "scripts": {
+    "start": "bun index.js",
+    "pretty": "prettier --write ./"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
+}
