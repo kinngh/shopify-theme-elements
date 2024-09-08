@@ -1,27 +1,92 @@
-# Theme Elements
+# WIP | Theme Elements
 
 Building theme app extensions is difficult. This repo aims to output CSS classes from a bunch of baseline elements that are usually required to build theme app extensions that feel like they belong to the theme.
 
-## How
+## How To Use Theme Elements
 
-[`theme_references.js`](./theme_references.js) contains a list of all known OS 2.0 themes from the Shopify Theme Store, along with their store pages, elements and their variants. If you plan to support certain themes, generate the `ui_elements.liquid` file and use it in your Liquid file:
+- Copy the [`theme_references.js`](./theme_references.js) file to your app.
 
-```html
-<button
-  class="{% render 'ui_elements', template: 'dawn', element: 'button', variant: 'primary'%}"
->
-  Button Content
-</button>
+- Create a dropdown that contains `theme_title` as the options.
+
+  - This contains the theme names, in all lower case. Make sure to make the first letter capital when you create your dropdown.
+
+- On selection, make write to metafield that theme's configuration data.
+
+```javascript
+const shopDetails = await client.request(
+  `{
+        shop {
+            id
+        }
+      }`,
+);
+
+const shopId = shopDetails.data.shop.id;
+
+const write_shipping_metafield = await client.request(
+  `
+    mutation CreateAppDataMetafield(
+    $metafieldsSetInput: [MetafieldsSetInput!]!
+    ) {
+        metafieldsSet(metafields: $metafieldsSetInput) {
+            metafields {
+                key
+                ownerType
+                type
+                value
+                namespace
+            }
+            userErrors {
+                field
+                message
+            }
+        }
+    }`,
+  {
+    variables: {
+      metafieldsSetInput: [
+        {
+          ownerId: shopId,
+          namespace: "namespace",
+          key: "key",
+          value: JSON.stringify(theme_references.selectedTheme), //<-- Selected theme goes here
+          type: "json",
+        },
+      ],
+    },
+  },
+);
 ```
 
-## The problem
+- Your data in the JSON metafield should look something like this.
+  - You can choose to just write the `elements` entry, but I prefer to add in the `theme_title` too, just so I can debug it later if required.
 
-- Exceeds the 100kb Liquid limit and using JS is not optimal.
+```json
+{
+  "theme_title": "dawn",
+  "elements": {
+    "button": {
+      "primary": "button button--primary",
+      "secondary": "button button--secondary",
+      "add_to_cart": "shopify-payment-button"
+    }
+  }
+}
+```
 
-## The solution
+- In your theme extension, assign the value of metafield to a Liquid Variable
+  - Note that since you're storing it as a JSON, you need to have `.value` at the end of it or it's not going to treat it like a JSON.
 
-For now I just want to generate a liquid file. Once I have a few themes' content in, I'll write to a metafield the classes that are required, which would cut down on the limitations of using theme ui elements.
+```liquid
+    {% assign theme_elements = shop.metafields.namespace.key.value %}
+```
+
+- Now the classes from theme elements are available to use in your code.
+
+```liquid
+<button class="{{ theme_elements.elements.button.primary }}">Primary button</button>
+```
 
 ## Contributions
 
-Special thanks to [Taylor Page](https://x.com/TRPage_dev) for the `theme_references` file.
+Special thanks to [Taylor Page](https://x.com/TRPage_dev) for the initial `theme_references` file that had all the 222 themes' data.
