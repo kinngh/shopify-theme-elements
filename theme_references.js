@@ -1,8 +1,7 @@
-const theme_references = [
-  {
+const theme_references = {
+  abode: {
     theme_title: "abode",
-    current_version: "3.0.5",
-    purchase_url: "https://themes.shopify.com/themes/abode",
+    theme_url: "https://themes.shopify.com/themes/abode",
     elements: {
       button: {
         primary: "button",
@@ -11,11 +10,15 @@ const theme_references = [
           "button btn-bg-transparent button-secondary button--full-width",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  aesthetic: {
     theme_title: "aesthetic",
-    current_version: "1.0.4",
-    purchase_url: "https://themes.shopify.com/themes/aesthetic",
+    theme_url: "https://themes.shopify.com/themes/aesthetic",
     elements: {
       button: {
         primary: "button button--primary button--primary-size",
@@ -24,11 +27,15 @@ const theme_references = [
           "button button--secondary button--primary-size focus-inset",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  agile: {
     theme_title: "agile",
-    current_version: "3.0.0",
-    purchase_url: "https://themes.shopify.com/themes/agile",
+    theme_url: "https://themes.shopify.com/themes/agile",
     elements: {
       button: {
         primary: "",
@@ -36,11 +43,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  aisle: {
     theme_title: "aisle",
-    current_version: "1.0.0",
-    purchase_url: "https://themes.shopify.com/themes/aisle",
+    theme_url: "https://themes.shopify.com/themes/aisle",
     elements: {
       button: {
         primary: "",
@@ -48,11 +59,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  alchemy: {
     theme_title: "alchemy",
-    current_version: "4.2.5",
-    purchase_url: "https://themes.shopify.com/themes/alchemy",
+    theme_url: "https://themes.shopify.com/themes/alchemy",
     elements: {
       button: {
         primary: "",
@@ -60,11 +75,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  align: {
     theme_title: "align",
-    current_version: "1.6.2",
-    purchase_url: "https://themes.shopify.com/themes/align",
+    theme_url: "https://themes.shopify.com/themes/align",
     elements: {
       button: {
         primary: "",
@@ -72,11 +91,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  amber: {
     theme_title: "amber",
-    current_version: "2.2.0",
-    purchase_url: "https://themes.shopify.com/themes/amber",
+    theme_url: "https://themes.shopify.com/themes/amber",
     elements: {
       button: {
         primary: "",
@@ -84,11 +107,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  andaman: {
     theme_title: "andaman",
-    current_version: "1.5.3",
-    purchase_url: "https://themes.shopify.com/themes/andaman",
+    theme_url: "https://themes.shopify.com/themes/andaman",
     elements: {
       button: {
         primary: "",
@@ -96,11 +123,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  area: {
     theme_title: "area",
-    current_version: "1.4.1",
-    purchase_url: "https://themes.shopify.com/themes/area",
+    theme_url: "https://themes.shopify.com/themes/area",
     elements: {
       button: {
         primary: "",
@@ -108,11 +139,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  artist: {
     theme_title: "artist",
-    current_version: "2.2.0",
-    purchase_url: "https://themes.shopify.com/themes/artist",
+    theme_url: "https://themes.shopify.com/themes/artist",
     elements: {
       button: {
         primary: "",
@@ -120,11 +155,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  athens: {
     theme_title: "athens",
-    current_version: "2.5.0",
-    purchase_url: "https://themes.shopify.com/themes/athens",
+    theme_url: "https://themes.shopify.com/themes/athens",
     elements: {
       button: {
         primary: "",
@@ -132,11 +171,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  atlantic: {
     theme_title: "atlantic",
-    current_version: "18.1.0",
-    purchase_url: "https://themes.shopify.com/themes/atlantic",
+    theme_url: "https://themes.shopify.com/themes/atlantic",
     elements: {
       button: {
         primary: "",
@@ -144,11 +187,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  atom: {
     theme_title: "atom",
-    current_version: "2.2.0",
-    purchase_url: "https://themes.shopify.com/themes/atom",
+    theme_url: "https://themes.shopify.com/themes/atom",
     elements: {
       button: {
         primary: "",
@@ -156,11 +203,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  aurora: {
     theme_title: "aurora",
-    current_version: "3.3.1",
-    purchase_url: "https://themes.shopify.com/themes/aurora",
+    theme_url: "https://themes.shopify.com/themes/aurora",
     elements: {
       button: {
         primary: "",
@@ -168,11 +219,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  automation: {
     theme_title: "automation",
-    current_version: "3.5.1",
-    purchase_url: "https://themes.shopify.com/themes/automation",
+    theme_url: "https://themes.shopify.com/themes/automation",
     elements: {
       button: {
         primary: "",
@@ -180,11 +235,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  avante: {
     theme_title: "avante",
-    current_version: "5.1.0",
-    purchase_url: "https://themes.shopify.com/themes/avante",
+    theme_url: "https://themes.shopify.com/themes/avante",
     elements: {
       button: {
         primary: "",
@@ -192,11 +251,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  avatar: {
     theme_title: "avatar",
-    current_version: "2.1.2",
-    purchase_url: "https://themes.shopify.com/themes/avatar",
+    theme_url: "https://themes.shopify.com/themes/avatar",
     elements: {
       button: {
         primary: "",
@@ -204,11 +267,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  avenue: {
     theme_title: "avenue",
-    current_version: "8.3.0",
-    purchase_url: "https://themes.shopify.com/themes/avenue",
+    theme_url: "https://themes.shopify.com/themes/avenue",
     elements: {
       button: {
         primary: "",
@@ -216,11 +283,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  banjo: {
     theme_title: "banjo",
-    current_version: "3.0.0",
-    purchase_url: "https://themes.shopify.com/themes/banjo",
+    theme_url: "https://themes.shopify.com/themes/banjo",
     elements: {
       button: {
         primary: "",
@@ -228,11 +299,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  barcelona: {
     theme_title: "barcelona",
-    current_version: "1.0.3",
-    purchase_url: "https://themes.shopify.com/themes/barcelona",
+    theme_url: "https://themes.shopify.com/themes/barcelona",
     elements: {
       button: {
         primary: "",
@@ -240,11 +315,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  baseline: {
     theme_title: "baseline",
-    current_version: "3.2.0",
-    purchase_url: "https://themes.shopify.com/themes/baseline",
+    theme_url: "https://themes.shopify.com/themes/baseline",
     elements: {
       button: {
         primary: "",
@@ -252,11 +331,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  bazaar: {
     theme_title: "bazaar",
-    current_version: "1.1.46",
-    purchase_url: "https://themes.shopify.com/themes/bazaar",
+    theme_url: "https://themes.shopify.com/themes/bazaar",
     elements: {
       button: {
         primary: "",
@@ -264,11 +347,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  be_yours: {
     theme_title: "be yours",
-    current_version: "7.2.2",
-    purchase_url: "https://themes.shopify.com/themes/be-yours",
+    theme_url: "https://themes.shopify.com/themes/be-yours",
     elements: {
       button: {
         primary: "",
@@ -276,11 +363,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  berlin: {
     theme_title: "berlin",
-    current_version: "1.1.4",
-    purchase_url: "https://themes.shopify.com/themes/berlin",
+    theme_url: "https://themes.shopify.com/themes/berlin",
     elements: {
       button: {
         primary: "",
@@ -288,11 +379,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  beyond: {
     theme_title: "beyond",
-    current_version: "4.1.0",
-    purchase_url: "https://themes.shopify.com/themes/beyond",
+    theme_url: "https://themes.shopify.com/themes/beyond",
     elements: {
       button: {
         primary: "",
@@ -300,11 +395,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  blockshop: {
     theme_title: "blockshop",
-    current_version: "10.1.0",
-    purchase_url: "https://themes.shopify.com/themes/blockshop",
+    theme_url: "https://themes.shopify.com/themes/blockshop",
     elements: {
       button: {
         primary: "",
@@ -312,11 +411,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  blum: {
     theme_title: "blum",
-    current_version: "2.1.1",
-    purchase_url: "https://themes.shopify.com/themes/blum",
+    theme_url: "https://themes.shopify.com/themes/blum",
     elements: {
       button: {
         primary: "",
@@ -324,11 +427,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  boost: {
     theme_title: "boost",
-    current_version: "6.2.1",
-    purchase_url: "https://themes.shopify.com/themes/boost",
+    theme_url: "https://themes.shopify.com/themes/boost",
     elements: {
       button: {
         primary: "",
@@ -336,11 +443,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  borders: {
     theme_title: "borders",
-    current_version: "1.3.1",
-    purchase_url: "https://themes.shopify.com/themes/borders",
+    theme_url: "https://themes.shopify.com/themes/borders",
     elements: {
       button: {
         primary: "",
@@ -348,11 +459,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  brava: {
     theme_title: "brava",
-    current_version: "3.2.0",
-    purchase_url: "https://themes.shopify.com/themes/brava",
+    theme_url: "https://themes.shopify.com/themes/brava",
     elements: {
       button: {
         primary: "",
@@ -360,11 +475,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  broadcast: {
     theme_title: "broadcast",
-    current_version: "5.8.0",
-    purchase_url: "https://themes.shopify.com/themes/broadcast",
+    theme_url: "https://themes.shopify.com/themes/broadcast",
     elements: {
       button: {
         primary: "",
@@ -372,11 +491,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  bullet: {
     theme_title: "bullet",
-    current_version: "5.0.0",
-    purchase_url: "https://themes.shopify.com/themes/bullet",
+    theme_url: "https://themes.shopify.com/themes/bullet",
     elements: {
       button: {
         primary: "",
@@ -384,11 +507,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  california: {
     theme_title: "california",
-    current_version: "9.13.0",
-    purchase_url: "https://themes.shopify.com/themes/california",
+    theme_url: "https://themes.shopify.com/themes/california",
     elements: {
       button: {
         primary: "",
@@ -396,11 +523,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  cama: {
     theme_title: "cama",
-    current_version: "3.1.2",
-    purchase_url: "https://themes.shopify.com/themes/cama",
+    theme_url: "https://themes.shopify.com/themes/cama",
     elements: {
       button: {
         primary: "",
@@ -408,11 +539,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  canopy: {
     theme_title: "canopy",
-    current_version: "6.2.1",
-    purchase_url: "https://themes.shopify.com/themes/canopy",
+    theme_url: "https://themes.shopify.com/themes/canopy",
     elements: {
       button: {
         primary: "",
@@ -420,11 +555,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  capital: {
     theme_title: "capital",
-    current_version: "33.2.0",
-    purchase_url: "https://themes.shopify.com/themes/capital",
+    theme_url: "https://themes.shopify.com/themes/capital",
     elements: {
       button: {
         primary: "",
@@ -432,11 +571,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  cascade: {
     theme_title: "cascade",
-    current_version: "4.1.0",
-    purchase_url: "https://themes.shopify.com/themes/cascade",
+    theme_url: "https://themes.shopify.com/themes/cascade",
     elements: {
       button: {
         primary: "",
@@ -444,11 +587,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  cello: {
     theme_title: "cello",
-    current_version: "1.0.1",
-    purchase_url: "https://themes.shopify.com/themes/cello",
+    theme_url: "https://themes.shopify.com/themes/cello",
     elements: {
       button: {
         primary: "",
@@ -456,11 +603,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  champion: {
     theme_title: "champion",
-    current_version: "1.6.3",
-    purchase_url: "https://themes.shopify.com/themes/champion",
+    theme_url: "https://themes.shopify.com/themes/champion",
     elements: {
       button: {
         primary: "",
@@ -468,11 +619,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  charge: {
     theme_title: "charge",
-    current_version: "2.4.0",
-    purchase_url: "https://themes.shopify.com/themes/charge",
+    theme_url: "https://themes.shopify.com/themes/charge",
     elements: {
       button: {
         primary: "",
@@ -480,11 +635,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  chord: {
     theme_title: "chord",
-    current_version: "4.0.0",
-    purchase_url: "https://themes.shopify.com/themes/chord",
+    theme_url: "https://themes.shopify.com/themes/chord",
     elements: {
       button: {
         primary: "",
@@ -492,11 +651,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  colorblock: {
     theme_title: "colorblock",
-    current_version: "15.1.0",
-    purchase_url: "https://themes.shopify.com/themes/colorblock",
+    theme_url: "https://themes.shopify.com/themes/colorblock",
     elements: {
       button: {
         primary: "",
@@ -504,11 +667,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  colors: {
     theme_title: "colors",
-    current_version: "9.12.0",
-    purchase_url: "https://themes.shopify.com/themes/colors",
+    theme_url: "https://themes.shopify.com/themes/colors",
     elements: {
       button: {
         primary: "",
@@ -516,11 +683,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  combine: {
     theme_title: "combine",
-    current_version: "2.4.2.1",
-    purchase_url: "https://themes.shopify.com/themes/combine",
+    theme_url: "https://themes.shopify.com/themes/combine",
     elements: {
       button: {
         primary: "",
@@ -528,11 +699,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  concept: {
     theme_title: "concept",
-    current_version: "1.6.0",
-    purchase_url: "https://themes.shopify.com/themes/concept",
+    theme_url: "https://themes.shopify.com/themes/concept",
     elements: {
       button: {
         primary: "",
@@ -540,11 +715,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  context: {
     theme_title: "context",
-    current_version: "retired",
-    purchase_url: "https://help.fluorescent.co/v/context",
+    theme_url: "https://help.fluorescent.co/v/context",
     elements: {
       button: {
         primary: "",
@@ -552,11 +731,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  copenhagen: {
     theme_title: "copenhagen",
-    current_version: "1.0.1",
-    purchase_url: "https://themes.shopify.com/themes/copenhagen",
+    theme_url: "https://themes.shopify.com/themes/copenhagen",
     elements: {
       button: {
         primary: "",
@@ -564,11 +747,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  cornerstone: {
     theme_title: "cornerstone",
-    current_version: "1.3.1",
-    purchase_url: "https://themes.shopify.com/themes/cornerstone",
+    theme_url: "https://themes.shopify.com/themes/cornerstone",
     elements: {
       button: {
         primary: "",
@@ -576,11 +763,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  craft: {
     theme_title: "craft",
-    current_version: "15.1.0",
-    purchase_url: "https://themes.shopify.com/themes/craft",
+    theme_url: "https://themes.shopify.com/themes/craft",
     elements: {
       button: {
         primary: "",
@@ -588,11 +779,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  crave: {
     theme_title: "crave",
-    current_version: "15.1.0",
-    purchase_url: "https://themes.shopify.com/themes/crave",
+    theme_url: "https://themes.shopify.com/themes/crave",
     elements: {
       button: {
         primary: "",
@@ -600,11 +795,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  creative: {
     theme_title: "creative",
-    current_version: "8.0.0",
-    purchase_url: "https://themes.shopify.com/themes/creative",
+    theme_url: "https://themes.shopify.com/themes/creative",
     elements: {
       button: {
         primary: "",
@@ -612,11 +811,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  creator: {
     theme_title: "creator",
-    current_version: "3.3.3",
-    purchase_url: "https://themes.shopify.com/themes/creator",
+    theme_url: "https://themes.shopify.com/themes/creator",
     elements: {
       button: {
         primary: "",
@@ -624,11 +827,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  dawn: {
     theme_title: "dawn",
-    current_version: "15.1.0",
-    purchase_url: "https://themes.shopify.com/themes/dawn",
+    theme_url: "https://themes.shopify.com/themes/dawn",
     elements: {
       button: {
         primary: "button button--primary",
@@ -636,11 +843,15 @@ const theme_references = [
         add_to_cart: "shopify-payment-button",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  digital: {
     theme_title: "digital",
-    current_version: "1.0.5",
-    purchase_url: "https://themes.shopify.com/themes/digital",
+    theme_url: "https://themes.shopify.com/themes/digital",
     elements: {
       button: {
         primary: "",
@@ -648,11 +859,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  distinctive: {
     theme_title: "distinctive",
-    current_version: "2.0.0",
-    purchase_url: "https://themes.shopify.com/themes/distinctive",
+    theme_url: "https://themes.shopify.com/themes/distinctive",
     elements: {
       button: {
         primary: "",
@@ -660,11 +875,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  district: {
     theme_title: "district",
-    current_version: "4.5.2",
-    purchase_url: "https://themes.shopify.com/themes/district",
+    theme_url: "https://themes.shopify.com/themes/district",
     elements: {
       button: {
         primary: "",
@@ -672,11 +891,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  divide: {
     theme_title: "divide",
-    current_version: "2.4.0",
-    purchase_url: "https://themes.shopify.com/themes/divide",
+    theme_url: "https://themes.shopify.com/themes/divide",
     elements: {
       button: {
         primary: "",
@@ -684,11 +907,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  drop: {
     theme_title: "drop",
-    current_version: "3.6.0",
-    purchase_url: "https://themes.shopify.com/themes/drop",
+    theme_url: "https://themes.shopify.com/themes/drop",
     elements: {
       button: {
         primary: "",
@@ -696,11 +923,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  editions: {
     theme_title: "editions",
-    current_version: "13.3.1",
-    purchase_url: "https://themes.shopify.com/themes/editions",
+    theme_url: "https://themes.shopify.com/themes/editions",
     elements: {
       button: {
         primary: "",
@@ -708,11 +939,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  effortless: {
     theme_title: "effortless",
-    current_version: "4.0.0",
-    purchase_url: "https://themes.shopify.com/themes/effortless",
+    theme_url: "https://themes.shopify.com/themes/effortless",
     elements: {
       button: {
         primary: "",
@@ -720,11 +955,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  electro: {
     theme_title: "electro",
-    current_version: "2.0.1",
-    purchase_url: "https://themes.shopify.com/themes/electro",
+    theme_url: "https://themes.shopify.com/themes/electro",
     elements: {
       button: {
         primary: "",
@@ -732,11 +971,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  elysian: {
     theme_title: "elysian",
-    current_version: "1.4.0",
-    purchase_url: "https://themes.shopify.com/themes/elysian",
+    theme_url: "https://themes.shopify.com/themes/elysian",
     elements: {
       button: {
         primary: "",
@@ -744,11 +987,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  emerge: {
     theme_title: "emerge",
-    current_version: "7.1.0",
-    purchase_url: "https://themes.shopify.com/themes/emerge",
+    theme_url: "https://themes.shopify.com/themes/emerge",
     elements: {
       button: {
         primary: "",
@@ -756,11 +1003,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  empire: {
     theme_title: "empire",
-    current_version: "11.1.1",
-    purchase_url: "https://themes.shopify.com/themes/empire",
+    theme_url: "https://themes.shopify.com/themes/empire",
     elements: {
       button: {
         primary: "",
@@ -768,11 +1019,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  emporium: {
     theme_title: "emporium",
-    current_version: "3.1.2",
-    purchase_url: "https://themes.shopify.com/themes/emporium",
+    theme_url: "https://themes.shopify.com/themes/emporium",
     elements: {
       button: {
         primary: "",
@@ -780,11 +1035,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  energy: {
     theme_title: "energy",
-    current_version: "1.0.1",
-    purchase_url: "https://themes.shopify.com/themes/energy",
+    theme_url: "https://themes.shopify.com/themes/energy",
     elements: {
       button: {
         primary: "",
@@ -792,11 +1051,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  enterprise: {
     theme_title: "enterprise",
-    current_version: "1.5.2",
-    purchase_url: "https://themes.shopify.com/themes/enterprise",
+    theme_url: "https://themes.shopify.com/themes/enterprise",
     elements: {
       button: {
         primary: "",
@@ -804,11 +1067,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  envy: {
     theme_title: "envy",
-    current_version: "33.2.0",
-    purchase_url: "https://themes.shopify.com/themes/envy",
+    theme_url: "https://themes.shopify.com/themes/envy",
     elements: {
       button: {
         primary: "",
@@ -816,11 +1083,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  erickson: {
     theme_title: "erickson",
-    current_version: "7.3.0",
-    purchase_url: "https://themes.shopify.com/themes/erickson",
+    theme_url: "https://themes.shopify.com/themes/erickson",
     elements: {
       button: {
         primary: "",
@@ -828,11 +1099,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  essence: {
     theme_title: "essence",
-    current_version: "2.1.0",
-    purchase_url: "https://themes.shopify.com/themes/essence",
+    theme_url: "https://themes.shopify.com/themes/essence",
     elements: {
       button: {
         primary: "",
@@ -840,11 +1115,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  essentials: {
     theme_title: "essentials",
-    current_version: "1.0.3",
-    purchase_url: "https://themes.shopify.com/themes/essentials",
+    theme_url: "https://themes.shopify.com/themes/essentials",
     elements: {
       button: {
         primary: "",
@@ -852,11 +1131,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  eurus: {
     theme_title: "eurus",
-    current_version: "7.2.0",
-    purchase_url: "https://themes.shopify.com/themes/eurus",
+    theme_url: "https://themes.shopify.com/themes/eurus",
     elements: {
       button: {
         primary: "",
@@ -864,11 +1147,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  exhibit: {
     theme_title: "exhibit",
-    current_version: "1.1.0",
-    purchase_url: "https://themes.shopify.com/themes/exhibit",
+    theme_url: "https://themes.shopify.com/themes/exhibit",
     elements: {
       button: {
         primary: "",
@@ -876,11 +1163,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  expanse: {
     theme_title: "expanse",
-    current_version: "5.2.4",
-    purchase_url: "https://themes.shopify.com/themes/expanse",
+    theme_url: "https://themes.shopify.com/themes/expanse",
     elements: {
       button: {
         primary: "",
@@ -888,11 +1179,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  expression: {
     theme_title: "expression",
-    current_version: "8.2.1",
-    purchase_url: "https://themes.shopify.com/themes/expression",
+    theme_url: "https://themes.shopify.com/themes/expression",
     elements: {
       button: {
         primary: "",
@@ -900,11 +1195,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  fame: {
     theme_title: "fame",
-    current_version: "6.4.1",
-    purchase_url: "https://themes.shopify.com/themes/fame",
+    theme_url: "https://themes.shopify.com/themes/fame",
     elements: {
       button: {
         primary: "",
@@ -912,11 +1211,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  fashionopolism: {
     theme_title: "fashionopolism",
-    current_version: "9.5.0",
-    purchase_url: "https://themes.shopify.com/themes/fashionopolism",
+    theme_url: "https://themes.shopify.com/themes/fashionopolism",
     elements: {
       button: {
         primary: "",
@@ -924,11 +1227,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  fetch: {
     theme_title: "fetch",
-    current_version: "2.2.3",
-    purchase_url: "https://themes.shopify.com/themes/fetch",
+    theme_url: "https://themes.shopify.com/themes/fetch",
     elements: {
       button: {
         primary: "",
@@ -936,11 +1243,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  flawless: {
     theme_title: "flawless",
-    current_version: "4.0.0",
-    purchase_url: "https://themes.shopify.com/themes/flawless",
+    theme_url: "https://themes.shopify.com/themes/flawless",
     elements: {
       button: {
         primary: "",
@@ -948,11 +1259,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  flow: {
     theme_title: "flow",
-    current_version: "39.2.0",
-    purchase_url: "https://themes.shopify.com/themes/flow",
+    theme_url: "https://themes.shopify.com/themes/flow",
     elements: {
       button: {
         primary: "",
@@ -960,11 +1275,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  focal: {
     theme_title: "focal",
-    current_version: "12.2.0",
-    purchase_url: "https://themes.shopify.com/themes/focal",
+    theme_url: "https://themes.shopify.com/themes/focal",
     elements: {
       button: {
         primary: "",
@@ -972,11 +1291,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  foodie: {
     theme_title: "foodie",
-    current_version: "5.2.0",
-    purchase_url: "https://themes.shopify.com/themes/foodie",
+    theme_url: "https://themes.shopify.com/themes/foodie",
     elements: {
       button: {
         primary: "",
@@ -984,11 +1307,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  forge: {
     theme_title: "forge",
-    current_version: "4.0.0",
-    purchase_url: "https://themes.shopify.com/themes/forge",
+    theme_url: "https://themes.shopify.com/themes/forge",
     elements: {
       button: {
         primary: "",
@@ -996,11 +1323,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  frame: {
     theme_title: "frame",
-    current_version: "6.1.1",
-    purchase_url: "https://themes.shopify.com/themes/frame",
+    theme_url: "https://themes.shopify.com/themes/frame",
     elements: {
       button: {
         primary: "",
@@ -1008,11 +1339,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  fresh: {
     theme_title: "fresh",
-    current_version: "33.0.0",
-    purchase_url: "https://themes.shopify.com/themes/fresh",
+    theme_url: "https://themes.shopify.com/themes/fresh",
     elements: {
       button: {
         primary: "",
@@ -1020,11 +1355,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  gain: {
     theme_title: "gain",
-    current_version: "2.8.6",
-    purchase_url: "https://themes.shopify.com/themes/gain",
+    theme_url: "https://themes.shopify.com/themes/gain",
     elements: {
       button: {
         primary: "",
@@ -1032,11 +1371,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  galleria: {
     theme_title: "galleria",
-    current_version: "3.3.4",
-    purchase_url: "https://themes.shopify.com/themes/galleria",
+    theme_url: "https://themes.shopify.com/themes/galleria",
     elements: {
       button: {
         primary: "",
@@ -1044,11 +1387,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  gem: {
     theme_title: "gem",
-    current_version: "2.1.3",
-    purchase_url: "https://themes.shopify.com/themes/gem",
+    theme_url: "https://themes.shopify.com/themes/gem",
     elements: {
       button: {
         primary: "",
@@ -1056,11 +1403,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  grid: {
     theme_title: "grid",
-    current_version: "6.3.0",
-    purchase_url: "https://themes.shopify.com/themes/grid",
+    theme_url: "https://themes.shopify.com/themes/grid",
     elements: {
       button: {
         primary: "",
@@ -1068,11 +1419,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  habitat: {
     theme_title: "habitat",
-    current_version: "3.7.0",
-    purchase_url: "https://themes.shopify.com/themes/habitat",
+    theme_url: "https://themes.shopify.com/themes/habitat",
     elements: {
       button: {
         primary: "",
@@ -1080,11 +1435,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  handmade: {
     theme_title: "handmade",
-    current_version: "2.0.6",
-    purchase_url: "https://themes.shopify.com/themes/handmade",
+    theme_url: "https://themes.shopify.com/themes/handmade",
     elements: {
       button: {
         primary: "",
@@ -1092,11 +1451,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  highlight: {
     theme_title: "highlight",
-    current_version: "3.3.0",
-    purchase_url: "https://themes.shopify.com/themes/highlight",
+    theme_url: "https://themes.shopify.com/themes/highlight",
     elements: {
       button: {
         primary: "",
@@ -1104,11 +1467,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  honey: {
     theme_title: "honey",
-    current_version: "8.1.0",
-    purchase_url: "https://themes.shopify.com/themes/honey",
+    theme_url: "https://themes.shopify.com/themes/honey",
     elements: {
       button: {
         primary: "",
@@ -1116,11 +1483,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  huge: {
     theme_title: "huge",
-    current_version: "1.0.0",
-    purchase_url: "https://themes.shopify.com/themes/huge",
+    theme_url: "https://themes.shopify.com/themes/huge",
     elements: {
       button: {
         primary: "",
@@ -1128,11 +1499,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  icon: {
     theme_title: "icon",
-    current_version: "11.0.1",
-    purchase_url: "https://themes.shopify.com/themes/icon",
+    theme_url: "https://themes.shopify.com/themes/icon",
     elements: {
       button: {
         primary: "",
@@ -1140,11 +1515,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  igloo: {
     theme_title: "igloo",
-    current_version: "2.0.1",
-    purchase_url: "https://themes.shopify.com/themes/igloo",
+    theme_url: "https://themes.shopify.com/themes/igloo",
     elements: {
       button: {
         primary: "",
@@ -1152,11 +1531,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  impact: {
     theme_title: "impact",
-    current_version: "6.2.0",
-    purchase_url: "https://themes.shopify.com/themes/impact",
+    theme_url: "https://themes.shopify.com/themes/impact",
     elements: {
       button: {
         primary: "",
@@ -1164,11 +1547,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  impulse: {
     theme_title: "impulse",
-    current_version: "7.5.1",
-    purchase_url: "https://themes.shopify.com/themes/impulse",
+    theme_url: "https://themes.shopify.com/themes/impulse",
     elements: {
       button: {
         primary: "",
@@ -1176,11 +1563,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  influence: {
     theme_title: "influence",
-    current_version: "4.1.0",
-    purchase_url: "https://themes.shopify.com/themes/influence",
+    theme_url: "https://themes.shopify.com/themes/influence",
     elements: {
       button: {
         primary: "",
@@ -1188,11 +1579,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  ira: {
     theme_title: "ira",
-    current_version: "retired",
-    purchase_url: "https://help.fluorescent.co/v/ira",
+    theme_url: "https://help.fluorescent.co/v/ira",
     elements: {
       button: {
         primary: "",
@@ -1200,11 +1595,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  iris: {
     theme_title: "iris",
-    current_version: "1.6.0",
-    purchase_url: "https://themes.shopify.com/themes/iris",
+    theme_url: "https://themes.shopify.com/themes/iris",
     elements: {
       button: {
         primary: "",
@@ -1212,11 +1611,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  kairo: {
     theme_title: "kairo",
-    current_version: "2.0.0",
-    purchase_url: "https://themes.shopify.com/themes/kairo",
+    theme_url: "https://themes.shopify.com/themes/kairo",
     elements: {
       button: {
         primary: "",
@@ -1224,11 +1627,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  kidu: {
     theme_title: "kidu",
-    current_version: "4.1.0",
-    purchase_url: "https://themes.shopify.com/themes/kidu",
+    theme_url: "https://themes.shopify.com/themes/kidu",
     elements: {
       button: {
         primary: "",
@@ -1236,11 +1643,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  king: {
     theme_title: "king",
-    current_version: "1.0.1",
-    purchase_url: "https://themes.shopify.com/themes/king",
+    theme_url: "https://themes.shopify.com/themes/king",
     elements: {
       button: {
         primary: "",
@@ -1248,11 +1659,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  kingdom: {
     theme_title: "kingdom",
-    current_version: "5.3.0",
-    purchase_url: "https://themes.shopify.com/themes/kingdom",
+    theme_url: "https://themes.shopify.com/themes/kingdom",
     elements: {
       button: {
         primary: "",
@@ -1260,11 +1675,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  label: {
     theme_title: "label",
-    current_version: "3.6.0",
-    purchase_url: "https://themes.shopify.com/themes/label",
+    theme_url: "https://themes.shopify.com/themes/label",
     elements: {
       button: {
         primary: "",
@@ -1272,11 +1691,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  launch: {
     theme_title: "launch",
-    current_version: "8.1.0",
-    purchase_url: "https://themes.shopify.com/themes/launch",
+    theme_url: "https://themes.shopify.com/themes/launch",
     elements: {
       button: {
         primary: "",
@@ -1284,11 +1707,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  local: {
     theme_title: "local",
-    current_version: "2.4.2",
-    purchase_url: "https://themes.shopify.com/themes/local",
+    theme_url: "https://themes.shopify.com/themes/local",
     elements: {
       button: {
         primary: "",
@@ -1296,11 +1723,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  loft: {
     theme_title: "loft",
-    current_version: "2.3.6",
-    purchase_url: "https://themes.shopify.com/themes/loft",
+    theme_url: "https://themes.shopify.com/themes/loft",
     elements: {
       button: {
         primary: "",
@@ -1308,11 +1739,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  lorenza: {
     theme_title: "lorenza",
-    current_version: "6.5.3",
-    purchase_url: "https://themes.shopify.com/themes/lorenza",
+    theme_url: "https://themes.shopify.com/themes/lorenza",
     elements: {
       button: {
         primary: "",
@@ -1320,11 +1755,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  lute: {
     theme_title: "lute",
-    current_version: "2.0.0",
-    purchase_url: "https://themes.shopify.com/themes/lute",
+    theme_url: "https://themes.shopify.com/themes/lute",
     elements: {
       button: {
         primary: "",
@@ -1332,11 +1771,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  luxe: {
     theme_title: "luxe",
-    current_version: "4.0.0",
-    purchase_url: "https://themes.shopify.com/themes/luxe",
+    theme_url: "https://themes.shopify.com/themes/luxe",
     elements: {
       button: {
         primary: "",
@@ -1344,11 +1787,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  machina: {
     theme_title: "machina",
-    current_version: "1.1.0",
-    purchase_url: "https://themes.shopify.com/themes/machina",
+    theme_url: "https://themes.shopify.com/themes/machina",
     elements: {
       button: {
         primary: "",
@@ -1356,11 +1803,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  maker: {
     theme_title: "maker",
-    current_version: "9.1.0",
-    purchase_url: "https://themes.shopify.com/themes/maker",
+    theme_url: "https://themes.shopify.com/themes/maker",
     elements: {
       button: {
         primary: "",
@@ -1368,11 +1819,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  mandolin: {
     theme_title: "mandolin",
-    current_version: "3.0.1",
-    purchase_url: "https://themes.shopify.com/themes/mandolin",
+    theme_url: "https://themes.shopify.com/themes/mandolin",
     elements: {
       button: {
         primary: "",
@@ -1380,11 +1835,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  maranello: {
     theme_title: "maranello",
-    current_version: "1.9.0",
-    purchase_url: "https://themes.shopify.com/themes/maranello",
+    theme_url: "https://themes.shopify.com/themes/maranello",
     elements: {
       button: {
         primary: "",
@@ -1392,11 +1851,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  marble: {
     theme_title: "marble",
-    current_version: "3.0.3",
-    purchase_url: "https://themes.shopify.com/themes/marble",
+    theme_url: "https://themes.shopify.com/themes/marble",
     elements: {
       button: {
         primary: "",
@@ -1404,11 +1867,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  masonry: {
     theme_title: "masonry",
-    current_version: "6.1.1",
-    purchase_url: "https://themes.shopify.com/themes/masonry",
+    theme_url: "https://themes.shopify.com/themes/masonry",
     elements: {
       button: {
         primary: "",
@@ -1416,11 +1883,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  mavon: {
     theme_title: "mavon",
-    current_version: "7.0.0",
-    purchase_url: "https://themes.shopify.com/themes/mavon",
+    theme_url: "https://themes.shopify.com/themes/mavon",
     elements: {
       button: {
         primary: "",
@@ -1428,11 +1899,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  meka: {
     theme_title: "meka",
-    current_version: "1.0.0",
-    purchase_url: "https://themes.shopify.com/themes/meka",
+    theme_url: "https://themes.shopify.com/themes/meka",
     elements: {
       button: {
         primary: "",
@@ -1440,11 +1915,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  minimalista: {
     theme_title: "minimalista",
-    current_version: "1.0.6",
-    purchase_url: "https://themes.shopify.com/themes/minimalista",
+    theme_url: "https://themes.shopify.com/themes/minimalista",
     elements: {
       button: {
         primary: "",
@@ -1452,11 +1931,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  minion: {
     theme_title: "minion",
-    current_version: "2.6.0",
-    purchase_url: "https://themes.shopify.com/themes/minion",
+    theme_url: "https://themes.shopify.com/themes/minion",
     elements: {
       button: {
         primary: "",
@@ -1464,11 +1947,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  mode: {
     theme_title: "mode",
-    current_version: "4.1.0",
-    purchase_url: "https://themes.shopify.com/themes/mode",
+    theme_url: "https://themes.shopify.com/themes/mode",
     elements: {
       button: {
         primary: "",
@@ -1476,11 +1963,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  modular: {
     theme_title: "modular",
-    current_version: "4.1.2",
-    purchase_url: "https://themes.shopify.com/themes/modular",
+    theme_url: "https://themes.shopify.com/themes/modular",
     elements: {
       button: {
         primary: "",
@@ -1488,11 +1979,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  modules: {
     theme_title: "modules",
-    current_version: "3.0.1",
-    purchase_url: "https://themes.shopify.com/themes/modules",
+    theme_url: "https://themes.shopify.com/themes/modules",
     elements: {
       button: {
         primary: "",
@@ -1500,11 +1995,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  mojave: {
     theme_title: "mojave",
-    current_version: "2.0.11",
-    purchase_url: "https://themes.shopify.com/themes/mojave",
+    theme_url: "https://themes.shopify.com/themes/mojave",
     elements: {
       button: {
         primary: "",
@@ -1512,11 +2011,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  momentum: {
     theme_title: "momentum",
-    current_version: "6.2.0",
-    purchase_url: "https://themes.shopify.com/themes/momentum",
+    theme_url: "https://themes.shopify.com/themes/momentum",
     elements: {
       button: {
         primary: "",
@@ -1524,11 +2027,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  monaco: {
     theme_title: "monaco",
-    current_version: "1.0.6",
-    purchase_url: "https://themes.shopify.com/themes/monaco",
+    theme_url: "https://themes.shopify.com/themes/monaco",
     elements: {
       button: {
         primary: "",
@@ -1536,11 +2043,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  monk: {
     theme_title: "monk",
-    current_version: "1.0.2",
-    purchase_url: "https://themes.shopify.com/themes/monk",
+    theme_url: "https://themes.shopify.com/themes/monk",
     elements: {
       button: {
         primary: "",
@@ -1548,11 +2059,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  mono: {
     theme_title: "mono",
-    current_version: "1.1.0",
-    purchase_url: "https://themes.shopify.com/themes/mono",
+    theme_url: "https://themes.shopify.com/themes/mono",
     elements: {
       button: {
         primary: "",
@@ -1560,11 +2075,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  motion: {
     theme_title: "motion",
-    current_version: "10.5.1",
-    purchase_url: "https://themes.shopify.com/themes/motion",
+    theme_url: "https://themes.shopify.com/themes/motion",
     elements: {
       button: {
         primary: "",
@@ -1572,11 +2091,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  mr_parker: {
     theme_title: "mr parker",
-    current_version: "10.0.0",
-    purchase_url: "https://themes.shopify.com/themes/mr-parker",
+    theme_url: "https://themes.shopify.com/themes/mr-parker",
     elements: {
       button: {
         primary: "",
@@ -1584,11 +2107,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  multi: {
     theme_title: "multi",
-    current_version: "2.0.1",
-    purchase_url: "https://themes.shopify.com/themes/multi",
+    theme_url: "https://themes.shopify.com/themes/multi",
     elements: {
       button: {
         primary: "",
@@ -1596,11 +2123,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  murmel: {
     theme_title: "murmel",
-    current_version: "1.3.0",
-    purchase_url: "https://themes.shopify.com/themes/murmel",
+    theme_url: "https://themes.shopify.com/themes/murmel",
     elements: {
       button: {
         primary: "",
@@ -1608,11 +2139,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  neat: {
     theme_title: "neat",
-    current_version: "2.0.6",
-    purchase_url: "https://themes.shopify.com/themes/neat",
+    theme_url: "https://themes.shopify.com/themes/neat",
     elements: {
       button: {
         primary: "",
@@ -1620,11 +2155,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  nexa: {
     theme_title: "nexa",
-    current_version: "1.0.0",
-    purchase_url: "https://themes.shopify.com/themes/nexa",
+    theme_url: "https://themes.shopify.com/themes/nexa",
     elements: {
       button: {
         primary: "",
@@ -1632,11 +2171,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  next: {
     theme_title: "next",
-    current_version: "1.6.0",
-    purchase_url: "https://themes.shopify.com/themes/next",
+    theme_url: "https://themes.shopify.com/themes/next",
     elements: {
       button: {
         primary: "",
@@ -1644,11 +2187,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  noblesse: {
     theme_title: "noblesse",
-    current_version: "1.0.0",
-    purchase_url: "https://themes.shopify.com/themes/noblesse",
+    theme_url: "https://themes.shopify.com/themes/noblesse",
     elements: {
       button: {
         primary: "",
@@ -1656,11 +2203,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  nordic: {
     theme_title: "nordic",
-    current_version: "1.0.0",
-    purchase_url: "https://themes.shopify.com/themes/nordic",
+    theme_url: "https://themes.shopify.com/themes/nordic",
     elements: {
       button: {
         primary: "",
@@ -1668,11 +2219,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  north: {
     theme_title: "north",
-    current_version: "3.0.0",
-    purchase_url: "https://themes.shopify.com/themes/north",
+    theme_url: "https://themes.shopify.com/themes/north",
     elements: {
       button: {
         primary: "",
@@ -1680,11 +2235,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  nostalgia: {
     theme_title: "nostalgia",
-    current_version: "2.1.0",
-    purchase_url: "https://themes.shopify.com/themes/nostalgia",
+    theme_url: "https://themes.shopify.com/themes/nostalgia",
     elements: {
       button: {
         primary: "",
@@ -1692,11 +2251,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  origin: {
     theme_title: "origin",
-    current_version: "15.1.0",
-    purchase_url: "https://themes.shopify.com/themes/origin",
+    theme_url: "https://themes.shopify.com/themes/origin",
     elements: {
       button: {
         primary: "",
@@ -1704,11 +2267,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  pacific: {
     theme_title: "pacific",
-    current_version: "6.1.0",
-    purchase_url: "https://themes.shopify.com/themes/pacific",
+    theme_url: "https://themes.shopify.com/themes/pacific",
     elements: {
       button: {
         primary: "",
@@ -1716,11 +2283,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  palo_alto: {
     theme_title: "palo alto",
-    current_version: "5.8.0",
-    purchase_url: "https://themes.shopify.com/themes/palo-alto",
+    theme_url: "https://themes.shopify.com/themes/palo-alto",
     elements: {
       button: {
         primary: "",
@@ -1728,11 +2299,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  paper: {
     theme_title: "paper",
-    current_version: "7.4.0",
-    purchase_url: "https://themes.shopify.com/themes/paper",
+    theme_url: "https://themes.shopify.com/themes/paper",
     elements: {
       button: {
         primary: "btn",
@@ -1740,11 +2315,15 @@ const theme_references = [
         add_to_cart: "btn !w-full btn--load btn",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  parallax: {
     theme_title: "parallax",
-    current_version: "6.1.0",
-    purchase_url: "https://themes.shopify.com/themes/parallax",
+    theme_url: "https://themes.shopify.com/themes/parallax",
     elements: {
       button: {
         primary: "",
@@ -1752,11 +2331,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  paris: {
     theme_title: "paris",
-    current_version: "1.1.0",
-    purchase_url: "https://themes.shopify.com/themes/paris",
+    theme_url: "https://themes.shopify.com/themes/paris",
     elements: {
       button: {
         primary: "",
@@ -1764,11 +2347,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  pesto: {
     theme_title: "pesto",
-    current_version: "4.0.0",
-    purchase_url: "https://themes.shopify.com/themes/pesto",
+    theme_url: "https://themes.shopify.com/themes/pesto",
     elements: {
       button: {
         primary: "",
@@ -1776,11 +2363,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  piano: {
     theme_title: "piano",
-    current_version: "1.0.2",
-    purchase_url: "https://themes.shopify.com/themes/piano",
+    theme_url: "https://themes.shopify.com/themes/piano",
     elements: {
       button: {
         primary: "",
@@ -1788,11 +2379,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  pinnacle: {
     theme_title: "pinnacle",
-    current_version: "1.2.0",
-    purchase_url: "https://themes.shopify.com/themes/pinnacle",
+    theme_url: "https://themes.shopify.com/themes/pinnacle",
     elements: {
       button: {
         primary: "",
@@ -1800,11 +2395,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  pipeline: {
     theme_title: "pipeline",
-    current_version: "7.4.0",
-    purchase_url: "https://themes.shopify.com/themes/pipeline",
+    theme_url: "https://themes.shopify.com/themes/pipeline",
     elements: {
       button: {
         primary: "",
@@ -1812,11 +2411,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  polyform: {
     theme_title: "polyform",
-    current_version: "1.2.0",
-    purchase_url: "https://themes.shopify.com/themes/polyform",
+    theme_url: "https://themes.shopify.com/themes/polyform",
     elements: {
       button: {
         primary: "",
@@ -1824,11 +2427,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  portland: {
     theme_title: "portland",
-    current_version: "2.0.6",
-    purchase_url: "https://themes.shopify.com/themes/portland",
+    theme_url: "https://themes.shopify.com/themes/portland",
     elements: {
       button: {
         primary: "",
@@ -1836,11 +2443,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  praise: {
     theme_title: "praise",
-    current_version: "3.0.1",
-    purchase_url: "https://themes.shopify.com/themes/praise",
+    theme_url: "https://themes.shopify.com/themes/praise",
     elements: {
       button: {
         primary: "",
@@ -1848,11 +2459,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  prestige: {
     theme_title: "prestige",
-    current_version: "10.2.0",
-    purchase_url: "https://themes.shopify.com/themes/prestige",
+    theme_url: "https://themes.shopify.com/themes/prestige",
     elements: {
       button: {
         primary: "",
@@ -1860,11 +2475,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  providence: {
     theme_title: "providence",
-    current_version: "6.0.3",
-    purchase_url: "https://themes.shopify.com/themes/providence",
+    theme_url: "https://themes.shopify.com/themes/providence",
     elements: {
       button: {
         primary: "",
@@ -1872,11 +2491,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  publisher: {
     theme_title: "publisher",
-    current_version: "15.1.0",
-    purchase_url: "https://themes.shopify.com/themes/publisher",
+    theme_url: "https://themes.shopify.com/themes/publisher",
     elements: {
       button: {
         primary: "",
@@ -1884,11 +2507,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  pursuit: {
     theme_title: "pursuit",
-    current_version: "1.1.0",
-    purchase_url: "https://themes.shopify.com/themes/pursuit",
+    theme_url: "https://themes.shopify.com/themes/pursuit",
     elements: {
       button: {
         primary: "",
@@ -1896,11 +2523,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  refine: {
     theme_title: "refine",
-    current_version: "1.1.0",
-    purchase_url: "https://themes.shopify.com/themes/refine",
+    theme_url: "https://themes.shopify.com/themes/refine",
     elements: {
       button: {
         primary: "",
@@ -1908,11 +2539,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  reformation: {
     theme_title: "reformation",
-    current_version: "5.0.0",
-    purchase_url: "https://themes.shopify.com/themes/reformation",
+    theme_url: "https://themes.shopify.com/themes/reformation",
     elements: {
       button: {
         primary: "",
@@ -1920,11 +2555,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  refresh: {
     theme_title: "refresh",
-    current_version: "15.1.0",
-    purchase_url: "https://themes.shopify.com/themes/refresh",
+    theme_url: "https://themes.shopify.com/themes/refresh",
     elements: {
       button: {
         primary: "",
@@ -1932,11 +2571,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  relax: {
     theme_title: "relax",
-    current_version: "1.7.0",
-    purchase_url: "https://themes.shopify.com/themes/relax",
+    theme_url: "https://themes.shopify.com/themes/relax",
     elements: {
       button: {
         primary: "",
@@ -1944,11 +2587,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  release: {
     theme_title: "release",
-    current_version: "1.0.5",
-    purchase_url: "https://themes.shopify.com/themes/release",
+    theme_url: "https://themes.shopify.com/themes/release",
     elements: {
       button: {
         primary: "",
@@ -1956,11 +2603,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  responsive: {
     theme_title: "responsive",
-    current_version: "9.1.0",
-    purchase_url: "https://themes.shopify.com/themes/responsive",
+    theme_url: "https://themes.shopify.com/themes/responsive",
     elements: {
       button: {
         primary: "",
@@ -1968,11 +2619,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  retina: {
     theme_title: "retina",
-    current_version: "7.3.0",
-    purchase_url: "https://themes.shopify.com/themes/retina",
+    theme_url: "https://themes.shopify.com/themes/retina",
     elements: {
       button: {
         primary: "",
@@ -1980,11 +2635,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  retro: {
     theme_title: "retro",
-    current_version: "1.0.2",
-    purchase_url: "https://themes.shopify.com/themes/retro",
+    theme_url: "https://themes.shopify.com/themes/retro",
     elements: {
       button: {
         primary: "",
@@ -1992,11 +2651,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  ride: {
     theme_title: "ride",
-    current_version: "15.1.0",
-    purchase_url: "https://themes.shopify.com/themes/ride",
+    theme_url: "https://themes.shopify.com/themes/ride",
     elements: {
       button: {
         primary: "",
@@ -2004,11 +2667,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  rise: {
     theme_title: "rise",
-    current_version: "15.1.0",
-    purchase_url: "https://themes.shopify.com/themes/rise",
+    theme_url: "https://themes.shopify.com/themes/rise",
     elements: {
       button: {
         primary: "",
@@ -2016,11 +2683,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  roam: {
     theme_title: "roam",
-    current_version: "5.2.0",
-    purchase_url: "https://themes.shopify.com/themes/roam",
+    theme_url: "https://themes.shopify.com/themes/roam",
     elements: {
       button: {
         primary: "",
@@ -2028,11 +2699,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  sahara: {
     theme_title: "sahara",
-    current_version: "1.2.6",
-    purchase_url: "https://themes.shopify.com/themes/sahara",
+    theme_url: "https://themes.shopify.com/themes/sahara",
     elements: {
       button: {
         primary: "",
@@ -2040,11 +2715,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  select: {
     theme_title: "select",
-    current_version: "1.0.2",
-    purchase_url: "https://themes.shopify.com/themes/select",
+    theme_url: "https://themes.shopify.com/themes/select",
     elements: {
       button: {
         primary: "",
@@ -2052,11 +2731,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  sense: {
     theme_title: "sense",
-    current_version: "15.1.0",
-    purchase_url: "https://themes.shopify.com/themes/sense",
+    theme_url: "https://themes.shopify.com/themes/sense",
     elements: {
       button: {
         primary: "",
@@ -2064,11 +2747,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  shapes: {
     theme_title: "shapes",
-    current_version: "3.0.0",
-    purchase_url: "https://themes.shopify.com/themes/shapes",
+    theme_url: "https://themes.shopify.com/themes/shapes",
     elements: {
       button: {
         primary: "",
@@ -2076,11 +2763,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  shark: {
     theme_title: "shark",
-    current_version: "1.3.1",
-    purchase_url: "https://themes.shopify.com/themes/shark",
+    theme_url: "https://themes.shopify.com/themes/shark",
     elements: {
       button: {
         primary: "",
@@ -2088,11 +2779,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  shine: {
     theme_title: "shine",
-    current_version: "1.1.0",
-    purchase_url: "https://themes.shopify.com/themes/shine",
+    theme_url: "https://themes.shopify.com/themes/shine",
     elements: {
       button: {
         primary: "",
@@ -2100,11 +2795,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  showcase: {
     theme_title: "showcase",
-    current_version: "7.1.3",
-    purchase_url: "https://themes.shopify.com/themes/showcase",
+    theme_url: "https://themes.shopify.com/themes/showcase",
     elements: {
       button: {
         primary: "",
@@ -2112,11 +2811,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  showtime: {
     theme_title: "showtime",
-    current_version: "7.13.7",
-    purchase_url: "https://themes.shopify.com/themes/showtime",
+    theme_url: "https://themes.shopify.com/themes/showtime",
     elements: {
       button: {
         primary: "",
@@ -2124,11 +2827,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  sitar: {
     theme_title: "sitar",
-    current_version: "1.0.1",
-    purchase_url: "https://themes.shopify.com/themes/sitar",
+    theme_url: "https://themes.shopify.com/themes/sitar",
     elements: {
       button: {
         primary: "",
@@ -2136,11 +2843,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  sleek: {
     theme_title: "sleek",
-    current_version: "1.3.0",
-    purchase_url: "https://themes.shopify.com/themes/sleek",
+    theme_url: "https://themes.shopify.com/themes/sleek",
     elements: {
       button: {
         primary: "",
@@ -2148,11 +2859,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  space: {
     theme_title: "space",
-    current_version: "1.0.1",
-    purchase_url: "https://themes.shopify.com/themes/space",
+    theme_url: "https://themes.shopify.com/themes/space",
     elements: {
       button: {
         primary: "btn",
@@ -2160,11 +2875,15 @@ const theme_references = [
         add_to_cart: "!w-full btn--load btn",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  spark: {
     theme_title: "spark",
-    current_version: "3.3.3",
-    purchase_url: "https://themes.shopify.com/themes/spark",
+    theme_url: "https://themes.shopify.com/themes/spark",
     elements: {
       button: {
         primary: "",
@@ -2172,11 +2891,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  split: {
     theme_title: "split",
-    current_version: "4.3.1",
-    purchase_url: "https://themes.shopify.com/themes/split",
+    theme_url: "https://themes.shopify.com/themes/split",
     elements: {
       button: {
         primary: "",
@@ -2184,11 +2907,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  spotlight: {
     theme_title: "spotlight",
-    current_version: "15.1.0",
-    purchase_url: "https://themes.shopify.com/themes/spotlight",
+    theme_url: "https://themes.shopify.com/themes/spotlight",
     elements: {
       button: {
         primary: "",
@@ -2196,11 +2923,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  starlite: {
     theme_title: "starlite",
-    current_version: "3.5.0",
-    purchase_url: "https://themes.shopify.com/themes/starlite",
+    theme_url: "https://themes.shopify.com/themes/starlite",
     elements: {
       button: {
         primary: "",
@@ -2208,11 +2939,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  startup: {
     theme_title: "startup",
-    current_version: "12.3.0",
-    purchase_url: "https://themes.shopify.com/themes/startup",
+    theme_url: "https://themes.shopify.com/themes/startup",
     elements: {
       button: {
         primary: "",
@@ -2220,11 +2955,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  stiletto: {
     theme_title: "stiletto",
-    current_version: "3.2.2",
-    purchase_url: "https://themes.shopify.com/themes/stiletto",
+    theme_url: "https://themes.shopify.com/themes/stiletto",
     elements: {
       button: {
         primary: "",
@@ -2232,11 +2971,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  stockholm: {
     theme_title: "stockholm",
-    current_version: "2.0.10",
-    purchase_url: "https://themes.shopify.com/themes/stockholm",
+    theme_url: "https://themes.shopify.com/themes/stockholm",
     elements: {
       button: {
         primary: "",
@@ -2244,11 +2987,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  stockmart: {
     theme_title: "stockmart",
-    current_version: "1.1.6",
-    purchase_url: "https://themes.shopify.com/themes/stockmart",
+    theme_url: "https://themes.shopify.com/themes/stockmart",
     elements: {
       button: {
         primary: "",
@@ -2256,11 +3003,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  story: {
     theme_title: "story",
-    current_version: "4.2.0",
-    purchase_url: "https://themes.shopify.com/themes/story",
+    theme_url: "https://themes.shopify.com/themes/story",
     elements: {
       button: {
         primary: "",
@@ -2268,11 +3019,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  streamline: {
     theme_title: "streamline",
-    current_version: "6.5.1",
-    purchase_url: "https://themes.shopify.com/themes/streamline",
+    theme_url: "https://themes.shopify.com/themes/streamline",
     elements: {
       button: {
         primary: "",
@@ -2280,11 +3035,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  studio: {
     theme_title: "studio",
-    current_version: "15.1.0",
-    purchase_url: "https://themes.shopify.com/themes/studio",
+    theme_url: "https://themes.shopify.com/themes/studio",
     elements: {
       button: {
         primary: "",
@@ -2292,11 +3051,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  stylescape: {
     theme_title: "stylescape",
-    current_version: "2.1.0",
-    purchase_url: "https://themes.shopify.com/themes/stylescape",
+    theme_url: "https://themes.shopify.com/themes/stylescape",
     elements: {
       button: {
         primary: "",
@@ -2304,11 +3067,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  sunrise: {
     theme_title: "sunrise",
-    current_version: "11.05.01",
-    purchase_url: "https://themes.shopify.com/themes/sunrise",
+    theme_url: "https://themes.shopify.com/themes/sunrise",
     elements: {
       button: {
         primary: "",
@@ -2316,11 +3083,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  swipe: {
     theme_title: "swipe",
-    current_version: "1.0.0",
-    purchase_url: "https://themes.shopify.com/themes/swipe",
+    theme_url: "https://themes.shopify.com/themes/swipe",
     elements: {
       button: {
         primary: "",
@@ -2328,11 +3099,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  sydney: {
     theme_title: "sydney",
-    current_version: "1.1.3",
-    purchase_url: "https://themes.shopify.com/themes/sydney",
+    theme_url: "https://themes.shopify.com/themes/sydney",
     elements: {
       button: {
         primary: "",
@@ -2340,11 +3115,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  symmetry: {
     theme_title: "symmetry",
-    current_version: "7.2.1",
-    purchase_url: "https://themes.shopify.com/themes/symmetry",
+    theme_url: "https://themes.shopify.com/themes/symmetry",
     elements: {
       button: {
         primary: "",
@@ -2352,11 +3131,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  taiga: {
     theme_title: "taiga",
-    current_version: "3.6.0",
-    purchase_url: "https://themes.shopify.com/themes/taiga",
+    theme_url: "https://themes.shopify.com/themes/taiga",
     elements: {
       button: {
         primary: "",
@@ -2364,11 +3147,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  tailor: {
     theme_title: "tailor",
-    current_version: "3.1.0",
-    purchase_url: "https://themes.shopify.com/themes/tailor",
+    theme_url: "https://themes.shopify.com/themes/tailor",
     elements: {
       button: {
         primary: "",
@@ -2376,11 +3163,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  takeout: {
     theme_title: "takeout",
-    current_version: "1.0.0",
-    purchase_url: "https://themes.shopify.com/themes/takeout",
+    theme_url: "https://themes.shopify.com/themes/takeout",
     elements: {
       button: {
         primary: "",
@@ -2388,11 +3179,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  taste: {
     theme_title: "taste",
-    current_version: "15.1.0",
-    purchase_url: "https://themes.shopify.com/themes/taste",
+    theme_url: "https://themes.shopify.com/themes/taste",
     elements: {
       button: {
         primary: "",
@@ -2400,11 +3195,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  testament: {
     theme_title: "testament",
-    current_version: "13.0.0",
-    purchase_url: "https://themes.shopify.com/themes/testament",
+    theme_url: "https://themes.shopify.com/themes/testament",
     elements: {
       button: {
         primary: "",
@@ -2412,11 +3211,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  tokyo: {
     theme_title: "tokyo",
-    current_version: "1.4.0",
-    purchase_url: "https://themes.shopify.com/themes/tokyo",
+    theme_url: "https://themes.shopify.com/themes/tokyo",
     elements: {
       button: {
         primary: "",
@@ -2424,11 +3227,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  toyo: {
     theme_title: "toyo",
-    current_version: "3.0.3",
-    purchase_url: "https://themes.shopify.com/themes/toyo",
+    theme_url: "https://themes.shopify.com/themes/toyo",
     elements: {
       button: {
         primary: "",
@@ -2436,11 +3243,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  trade: {
     theme_title: "trade",
-    current_version: "15.1.0",
-    purchase_url: "https://themes.shopify.com/themes/trade",
+    theme_url: "https://themes.shopify.com/themes/trade",
     elements: {
       button: {
         primary: "",
@@ -2448,11 +3259,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  unicorn: {
     theme_title: "unicorn",
-    current_version: "1.6.5",
-    purchase_url: "https://themes.shopify.com/themes/unicorn",
+    theme_url: "https://themes.shopify.com/themes/unicorn",
     elements: {
       button: {
         primary: "",
@@ -2460,11 +3275,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  upscale: {
     theme_title: "upscale",
-    current_version: "3.3.2",
-    purchase_url: "https://themes.shopify.com/themes/upscale",
+    theme_url: "https://themes.shopify.com/themes/upscale",
     elements: {
       button: {
         primary: "",
@@ -2472,11 +3291,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  urban: {
     theme_title: "urban",
-    current_version: "1.9.1",
-    purchase_url: "https://themes.shopify.com/themes/urban",
+    theme_url: "https://themes.shopify.com/themes/urban",
     elements: {
       button: {
         primary: "",
@@ -2484,11 +3307,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  urge: {
     theme_title: "urge",
-    current_version: "1.0.0",
-    purchase_url: "https://themes.shopify.com/themes/urge",
+    theme_url: "https://themes.shopify.com/themes/urge",
     elements: {
       button: {
         primary: "",
@@ -2496,11 +3323,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  vantage: {
     theme_title: "vantage",
-    current_version: "11.1.0",
-    purchase_url: "https://themes.shopify.com/themes/vantage",
+    theme_url: "https://themes.shopify.com/themes/vantage",
     elements: {
       button: {
         primary: "",
@@ -2508,11 +3339,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  veena: {
     theme_title: "veena",
-    current_version: "1.0.3",
-    purchase_url: "https://themes.shopify.com/themes/veena",
+    theme_url: "https://themes.shopify.com/themes/veena",
     elements: {
       button: {
         primary: "",
@@ -2520,11 +3355,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  venue: {
     theme_title: "venue",
-    current_version: "13.0.0",
-    purchase_url: "https://themes.shopify.com/themes/venue",
+    theme_url: "https://themes.shopify.com/themes/venue",
     elements: {
       button: {
         primary: "",
@@ -2532,11 +3371,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  viola: {
     theme_title: "viola",
-    current_version: "1.0.9",
-    purchase_url: "https://themes.shopify.com/themes/viola",
+    theme_url: "https://themes.shopify.com/themes/viola",
     elements: {
       button: {
         primary: "",
@@ -2544,11 +3387,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  vision: {
     theme_title: "vision",
-    current_version: "4.0.0",
-    purchase_url: "https://themes.shopify.com/themes/vision",
+    theme_url: "https://themes.shopify.com/themes/vision",
     elements: {
       button: {
         primary: "",
@@ -2556,11 +3403,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  vivid: {
     theme_title: "vivid",
-    current_version: "1.0.4",
-    purchase_url: "https://themes.shopify.com/themes/vivid",
+    theme_url: "https://themes.shopify.com/themes/vivid",
     elements: {
       button: {
         primary: "",
@@ -2568,11 +3419,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  warehouse: {
     theme_title: "warehouse",
-    current_version: "6.1.0",
-    purchase_url: "https://themes.shopify.com/themes/warehouse",
+    theme_url: "https://themes.shopify.com/themes/warehouse",
     elements: {
       button: {
         primary: "",
@@ -2580,11 +3435,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  whisk: {
     theme_title: "whisk",
-    current_version: "10.0.1",
-    purchase_url: "https://themes.shopify.com/themes/whisk",
+    theme_url: "https://themes.shopify.com/themes/whisk",
     elements: {
       button: {
         primary: "button",
@@ -2592,11 +3451,15 @@ const theme_references = [
         add_to_cart: "featured-product__add-to-cart-button",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  woodstock: {
     theme_title: "woodstock",
-    current_version: "2.1.0",
-    purchase_url: "https://themes.shopify.com/themes/woodstock",
+    theme_url: "https://themes.shopify.com/themes/woodstock",
     elements: {
       button: {
         primary: "",
@@ -2604,11 +3467,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  xclusive: {
     theme_title: "xclusive",
-    current_version: "2.0.0",
-    purchase_url: "https://themes.shopify.com/themes/xclusive",
+    theme_url: "https://themes.shopify.com/themes/xclusive",
     elements: {
       button: {
         primary: "",
@@ -2616,11 +3483,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  xtra: {
     theme_title: "xtra",
-    current_version: "4.4.0",
-    purchase_url: "https://themes.shopify.com/themes/xtra",
+    theme_url: "https://themes.shopify.com/themes/xtra",
     elements: {
       button: {
         primary: "",
@@ -2628,11 +3499,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  yuva: {
     theme_title: "yuva",
-    current_version: "12.3.1",
-    purchase_url: "https://themes.shopify.com/themes/yuva",
+    theme_url: "https://themes.shopify.com/themes/yuva",
     elements: {
       button: {
         primary: "",
@@ -2640,11 +3515,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  zest: {
     theme_title: "zest",
-    current_version: "8.2.0",
-    purchase_url: "https://themes.shopify.com/themes/zest",
+    theme_url: "https://themes.shopify.com/themes/zest",
     elements: {
       button: {
         primary: "",
@@ -2652,11 +3531,15 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-  {
+  zora: {
     theme_title: "zora",
-    current_version: "1.3.0",
-    purchase_url: "https://themes.shopify.com/themes/zora",
+    theme_url: "https://themes.shopify.com/themes/zora",
     elements: {
       button: {
         primary: "",
@@ -2664,7 +3547,12 @@ const theme_references = [
         add_to_cart: "",
       },
     },
+    inserts: {
+      slider_cart: {
+        add_to_cart_group: ".atc_group", //dummy
+      },
+    },
   },
-];
+};
 
 export default theme_references;

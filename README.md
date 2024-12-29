@@ -1,4 +1,4 @@
-# WIP | Theme Elements | ETA: Jan 2025 
+# WIP | Theme Elements | ETA: Jan 2025
 
 Building theme app extensions is difficult. This repo aims to output CSS classes from a bunch of baseline elements that are usually required to build theme app extensions that feel like they belong to the theme.
 
@@ -63,12 +63,20 @@ const write_shipping_metafield = await client.request(
 
 ```json
 {
-  "theme_title": "dawn",
-  "elements": {
-    "button": {
-      "primary": "button button--primary",
-      "secondary": "button button--secondary",
-      "add_to_cart": "shopify-payment-button"
+  "dawn": {
+    "theme_title": "dawn",
+    "theme_url": "https://themes.shopify.com/themes/dawn",
+    "elements": {
+      "button": {
+        "primary": "button button--primary",
+        "secondary": "button button--secondary",
+        "add_to_cart": "shopify-payment-button"
+      }
+    },
+    "selectors": {
+      "slider_cart": {
+        "add_to_cart_group": ".atc_group" //dummy
+      }
     }
   }
 }
@@ -86,6 +94,17 @@ const write_shipping_metafield = await client.request(
 ```liquid
 <button class="{{ theme_elements.elements.button.primary }}">Primary button</button>
 ```
+
+- `selectors` are classes that help you insert elements inside a theme's popup carts and other elements that are harder to access via Liquid.
+
+```liquid
+<script>
+  window.app_name= {};
+  window.app_name.slider_cart_selector= " {{ theme_elements.selectors.slider_cart.add_to_cart_group }}";
+</script>
+```
+
+This would now allow you to inject your buttons in the slider cart.
 
 ## Contributions
 
