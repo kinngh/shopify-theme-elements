@@ -1,4 +1,4 @@
-# WIP | Theme Elements | ETA: Jan 2025
+# WIP | Theme Elements | ETA: Mid-2025
 
 Building theme app extensions is difficult. This repo aims to output CSS classes from a bunch of baseline elements that are usually required to build theme app extensions that feel like they belong to the theme.
 
